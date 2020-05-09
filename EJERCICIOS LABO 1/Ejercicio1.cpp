@@ -19,7 +19,7 @@ int main(void)
     cout << endl << "Por favor ingrese su tercer numero entero: " << endl;
     cin >> numero3;
 
-    promedio = (numero1+numero2+numero3)/3;
+    promedio = (float) (numero1+numero2+numero3)/3;
     cout << endl << "Su promedio es de: " << endl << promedio;
 
    
