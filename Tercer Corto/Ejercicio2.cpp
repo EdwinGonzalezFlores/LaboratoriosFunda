@@ -13,6 +13,84 @@ using namespace std;
 int num= 1+rand()%(101-1), numerox, intentos = 5;
 char Tecla;
 
+string probar(int h){
+    string a, b, c;
+    int num= 1+rand()%(101-1);
+    
+    a = "Te pasaste. Elige un numero menor: ";
+    b = "Muy bajo! Elige un numero mayor para seguir: ";
+    c = "FELICIDADES!! Has adivinado el numero!";
+    
+    
+    if (h > num){
+        return a;
+    }else if (h < num){
+        return b;
+    }else{
+        return c;
+    }
+   
+}
+
+string seguir(char y){
+    switch (y)
+    {
+    case 'E': cout << endl << "Gracias por participar";
+        break;
+    
+    default: cout << "Te quedan "<< intentos << " intentos. ";
+        break;
+    }
+    return 0;
+}
+int main(void){
+
+    cout << endl << "NÚMERO MAGICO" << endl;
+    do
+    {
+        
+        cout << endl << "Ingresa el numero que piensas es el correcto:" << endl;
+        cin >> numerox;
+        cout << endl;
+
+        --intentos;
+
+        probar(numerox);
+
+        cout << "Quieres seguir jugando?" << endl << "Presiona la letra 'E' MAYUSCULA para salir del juego.";
+        cout << endl << "De lo contrario presiona otra tecla cualquiera: ";
+        cin >> Tecla; cout << endl;
+
+        seguir(Tecla);
+    
+
+
+    } while (intentos > 0 || numerox != num);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 int comprobar(int x){
      
     while (x > 0 && x < 100)
@@ -53,8 +131,9 @@ string seguir(char y){
 
 
 int main(void){
-
-    cout << "NUMERO MAGICO" << endl << endl;
+    cout << num;
+    
+    *//*cout << "NUMERO MAGICO" << endl << endl;
 
     do
     {
@@ -70,4 +149,4 @@ int main(void){
     
     
     return 0;
-}
+}*/
