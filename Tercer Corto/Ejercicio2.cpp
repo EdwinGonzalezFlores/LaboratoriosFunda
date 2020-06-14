@@ -53,5 +53,6 @@ int main(void){
 
     } while (intentos > 0 && numerox != num && Tecla != 'E'); /*Aquí se encuentran los parámetros que defien el funcionamiento del While()*/
     
+    
     return 0;
 }
