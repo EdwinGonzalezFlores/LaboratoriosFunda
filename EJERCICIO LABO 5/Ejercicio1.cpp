@@ -31,6 +31,7 @@ int mcd(int x, int y){
 }
 
 
+
 int main(void){
 
     int dividendo;

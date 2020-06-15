@@ -6,6 +6,7 @@ int main(void){
     int hora, min, seg;
 
 
+
     cout << endl<< "HORAS" << endl;
     cout << "Por favor introduzca la hora (En formato de 24 horas): ";
     cin >> hora;

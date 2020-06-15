@@ -22,11 +22,12 @@ bool bisiesto(int x){     /*Se crea una función en la que se llevará a cabo la
         return false;
     }
     
+
 }
 int main(void){
     int aao;
     cout << endl << "A" << (char)164 << "o Bisiesto" << endl; /*En la función principal se pide el año bisiesto y se guarda en "aao"*/
-    
+
     cout << endl << "Por favor ingrese el a" << (char)164 << "o a evaluar:" << endl;
     cin >> aao;
 
