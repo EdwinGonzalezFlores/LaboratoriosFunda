@@ -17,6 +17,7 @@ int main(void){
     cout << "Segundos: ";
     cin >> seg;
 
+
     if (hora >= 0 && hora <= 23 && min >= 0 && min <= 59 && seg >= 0 && seg <= 59)      //Definir en que parametros se le sumara un segundo.
     {                               /* En este espacio lo que se realiza es que al sumar al segundo, minuto y hora, estos alcanzan los 
                                         valores de 60, 60 o 24, respectivamente; se le sumara "uno" a la siguiente unidad de tiempo*/

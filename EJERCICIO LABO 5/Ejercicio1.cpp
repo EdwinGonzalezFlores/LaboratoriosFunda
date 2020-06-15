@@ -38,6 +38,8 @@ int main(void){
     int divisor;
     
 
+
+
     cout << endl << endl << "CALCULAR MCD" << endl;
     cout << "Por favor introduce el numero mayor (Dividendo): ";
     cin >> dividendo;

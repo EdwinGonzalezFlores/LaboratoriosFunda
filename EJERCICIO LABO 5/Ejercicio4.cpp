@@ -28,6 +28,7 @@ int main(void){
     int dd, mm, aa;
 
 
+
     cout << endl << "FECHAS" << endl;           //Se introducen las fechas por el usuario.
     
     cout << endl << "Introduce el dia(en numeros): ";
