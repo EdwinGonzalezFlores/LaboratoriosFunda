@@ -16,6 +16,7 @@ void arreglo(int z[], int n, string x){
     }
     cout << "]";
     
+    
 }
 
 void suma(int a[], int b[], int n, int suma[]){

@@ -37,6 +37,7 @@ int main(void){
         
     }
 
+
     cout << endl << "El numero de veces que " << numero << " aparece en el arreglo es " << contador << " veces";
 
 
