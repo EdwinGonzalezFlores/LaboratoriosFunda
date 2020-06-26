@@ -4,12 +4,12 @@
 
 using namespace std;
 
-int murcielago(char array[], int x){
+int murcielago(char array[], int x){                //Se define la función "murcielago"
      for(int i = 0; i < x; i++){
-         if (array[i] == 'm'){
+         if (array[i] == 'm'){                      //Lo que se realiza es buscar dentro del array, los valores que sean iguales a las letras y estos se reemplazan por números
              array[i] = '0';
          }
-         if (array[i] == 'u'){
+         if (array[i] == 'u'){                      //Se  realiza esto con todas las letras de la palabra "murcielago"
              array[i] = '1';
          }
          if (array[i] == 'r'){
@@ -39,7 +39,7 @@ int murcielago(char array[], int x){
          
      }
 
-    cout << endl << "son: ";
+    cout << endl << "son: ";                        //Se vuelve a mostrar la cadena de carácteres con los nuevos valores y/o letras.
     for(int i = 0; i < x; i++){
          cout << array[i];
     }
@@ -50,15 +50,15 @@ int main(void){
     
    
     cout << endl << "CLAVE MURCIELAGO" << endl;
-    cout << endl << "Por favor introduce la frase que tu quieras: "; 
+    cout << endl << "Por favor introduce la frase que tu quieras: ";        //Se le pide al usuario una frase
     cin.getline(cadena,50);
 
-    cout << endl << "Tu frase es: " << cadena;
+    cout << endl << "Tu frase es: " << cadena;                              //Se muestra por pantalla
     
-    int z = strlen(cadena);
+    int z = strlen(cadena);                                                 //Se crea una variable que contiene la cantidad de letras ocupadas de la cadena.
     
 
-    murcielago(cadena, z);
+    murcielago(cadena, z);                  //La función creada arriba se usa con el array y la cantidad de letras ocupadas del array como límite.
     
 
     
