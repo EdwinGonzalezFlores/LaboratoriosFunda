@@ -39,7 +39,7 @@ int murcielago(char array[], int x){                //Se define la función "mur
          
      }
 
-    cout << endl << "son: ";                        //Se vuelve a mostrar la cadena de carácteres con los nuevos valores y/o letras.
+    cout << endl << "Ahora, esto es: ";                        //Se vuelve a mostrar la cadena de carácteres con los nuevos valores y/o letras.
     for(int i = 0; i < x; i++){
          cout << array[i];
     }
